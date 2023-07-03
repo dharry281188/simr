@@ -1,0 +1,35 @@
+###3.1.1.4###
+n = int(input("Enter number: "))
+print(n >= 100)
+
+###3.1.1.10###
+name = input("Enter name of flower: ")
+
+if name == "Spath":
+    print("Yes - Spath is the best plant ever!")
+elif name == "spath":
+    print("No, I want a big Spath!")
+else:
+    print("That is not Spath!")
+
+### 3.1.1.11 lab ###
+### if the person did jury service they pay half tax (if theyre paying tax)###
+
+income = float(input("enter annual income: "))
+jury_duty = input("Enter Y if you attended jury duty or N if not: ")
+
+if income <= 85528:
+    tax = ((income * 0.18) - 556.02)
+else:
+    tax = ((income - 85528) * 0.32 + 14,839.02) 
+
+if tax <= 0:
+    tax = 0.0
+    print("no tax for you")
+
+if jury_duty == "Y":
+    tax = (tax / 2)
+     
+
+tax = round(tax, 0)
+print("the tax is: ", tax, "thalers")
