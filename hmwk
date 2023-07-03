@@ -1,3 +1,137 @@
+print("        *        "*2)
+print("       * *       "*2)
+print("      *   *      "*2)
+print("     *     *     "*2)
+print("    *       *    "*2)
+print("   *         *   "*2)
+print("  *           *  "*2)
+print(" *             * "*2)
+print("******     ******"*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *******     "*2)
+
+
+
+print("\"I'm\"\n\"\"learning\"\"\n\"\"\"Python\"\"\"")
+
+
+
+john = 3
+mary = 5
+adam = 6
+total_apples = john+mary+adam
+print("Total apples:" , total_apples)
+
+average_apples = (total_apples/3)
+average_apples = round(total_apples/3, 2)
+print("Average apples:" , average_apples)
+
+
+kilometers = 12.25
+miles = 7.38
+
+miles_to_kilometers = miles * 1.61
+kilometers_to_miles = kilometers / 1.61
+
+print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
+print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
+
+
+x = 0
+x = float(x)
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+print("y =", y)
+
+x = 1
+x = float(x)
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+print("y =", y)
+
+x = -1
+x = float(x)
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+print("y =", y)
+
+
+
+##### 29th homework ########
+##lab 2.6.1.9###
+
+#setting the vairable functions
+#a = float(input("Enter first value: "))
+#b = float(input("Enter second value: "))
+
+
+##creating functions for the addition
+#add = (a+b)
+#subtract = (a-b)
+#multiply = (a*b)
+#divide = (a/b)
+#expo = (a**b)
+#floor_div = (a//b)
+
+##printing the above functions 
+#print("addition: ", add)
+#print("subtraction: ", subtract)
+#print("miltiplication: ", multiply)
+#print("division: ", divide)
+#print("exposition: ", expo)
+#print("floor division: ", floor_div)
+#print("\nThat's all, folks!")
+
+
+##lab 2.6.1.10###
+
+#x = float(input("enter value for x: "))
+#y = 1/(x+1/(x+1/(x+1/x))) #formula flipped on its side 
+#print("y =", y)
+
+##lab 2.6.1.11###
+
+#hour = int(input("starting time(hours): ")) # 12
+#mins = int(input("starting time (mins): ")) # 17
+#dura = int(input("event duration (mins): "))# 59
+
+#mins = (mins+dura) #17+59 = 76
+#hour= (hour+mins//60) #29//60 = 2
+#mins = (mins%60) #76%60 = 16
+#hour = (hour%24)
+#print("Time after event: ", hour, ":", mins ,sep = '')
+
+
+#'lab 2.6.1.12#
+
+x = int(input())
+y = int(input())
+
+x = x%y
+x = x%y
+y = y%x
+print(y)
+
+#x = 1/2 + 3//3 + 4**2
+#print(x)
+
+#x = 1//2*3
+#print(x)
+
+#x = input()
+#y = int(input())
+
+#print(x*y)
+
+
+
+
+
+
+
+
 ###3.1.1.4###
 n = int(input("Enter number: "))
 print(n >= 100)
