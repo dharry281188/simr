@@ -1,4 +1,4 @@
-print("        *        "*2)
+print("        *        "*2) #the *2 creates a second arrow
 print("       * *       "*2)
 print("      *   *      "*2)
 print("     *     *     "*2)
