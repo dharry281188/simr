@@ -314,3 +314,31 @@ if c0 > 1:
 	print("steps =",steps)
 else:
 	print("Bad c0 value")
+
+
+###3.4.1.13###
+
+# step 1:
+Beatles = [] #creates empty list called Beatles
+print("Step 1:", Beatles)
+
+# step 2:
+Beatles.append("John Lennon") #append = add new member to the list
+Beatles.append("Paul McCartney")
+Beatles.append("George Harrison")
+print("Step 2:", Beatles)
+
+# step 3:
+for members in range(2):
+    Beatles.append(input("New band member: ")) # allows user to input new member details too be added to list
+print("Step 3:", Beatles)
+
+# step 4:
+del Beatles[-1] # -1 deletes the last entry in the list
+del Beatles[-1]
+print("Step 4:", Beatles)
+
+# step 5:
+Beatles.insert(0, "RingoStarr") # adds the name to index 0 of the list (first entry)
+print("Step 5:", Beatles)
+print("The Fab:",len(Beatles)) # prints the fab and the number of members in the list
