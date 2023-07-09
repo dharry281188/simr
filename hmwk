@@ -342,3 +342,14 @@ print("Step 4:", Beatles)
 Beatles.insert(0, "RingoStarr") # adds the name to index 0 of the list (first entry)
 print("Step 5:", Beatles)
 print("The Fab:",len(Beatles)) # prints the fab and the number of members in the list
+
+###3.6.1.9### remove duplicated numbers
+
+my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+new_list = []
+for number in my_list:  # Browse all numbers from the source list.
+	if number not in new_list:  # If the number doesn't appear within the new list...
+		new_list.append(number)  # ...append it here.
+my_list = new_list[:]  # Make a copy of new_list.
+print("The list with unique elements only:")
+print(my_list)
